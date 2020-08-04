@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: whoami-liveness
+spec:
+  containers:
+  - image: containous/whoami
+    name: whoami
+    livenessProbe:
+      httpGet:
+        path: /health
+        port: 80
