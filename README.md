@@ -25,3 +25,4 @@ Creating a Kube Service
 # Handy Resources
 
 * `kubectl` cheatsheet: https://kubernetes.io/docs/reference/kubectl/cheatsheet/
+* Store kube secrets in AWS secrets https://github.com/godaddy/kubernetes-external-secrets
